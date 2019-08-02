@@ -1,0 +1,1160 @@
+[2019-08-02 15:40:05.249 INFO ] [main] druid.pool.DruidDataSource - {dataSource-0} closing ...
+[2019-08-02 16:29:48.840 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:29:48.867 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:29:48.930 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:29:48.930 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:29:48.931 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:29:48.931 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:29:48.932 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:29:48.932 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:29:48.932 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:29:48.933 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:29:48.933 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:29:48.933 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:29:48.934 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:29:48.934 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:29:48.934 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:29:48.935 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:29:48.935 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:29:49.006 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 24802 (auto-detected)
+[2019-08-02 16:29:49.012 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:29:49.014 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xde11b948fb5178e1 (took 14 ms)
+[2019-08-02 16:29:49.067 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:29:49.067 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:29:49.067 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:29:49.067 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:29:49.068 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:29:49.068 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:29:49.068 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:29:49.068 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:29:49.068 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:29:49.068 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:29:49.076 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:29:49.076 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:29:49.079 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 16:29:49.079 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 16:31:01.814 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:31:01.833 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:31:01.907 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:31:01.908 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:31:01.908 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:31:01.909 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:31:01.909 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:31:01.909 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:31:01.910 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:31:01.911 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:31:01.912 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:31:01.912 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:31:01.912 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:31:01.913 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:31:01.913 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:31:01.914 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:31:01.914 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:31:01.985 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 24837 (auto-detected)
+[2019-08-02 16:31:01.994 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:31:01.997 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc8cd2d93ba9e188e (took 14 ms)
+[2019-08-02 16:31:02.061 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:31:02.061 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:31:02.061 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:31:02.061 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:31:02.062 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:31:02.062 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:31:02.062 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:31:02.062 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:31:02.062 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:31:02.063 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:31:02.071 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:31:02.071 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:31:02.136 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 16:31:02.136 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 16:31:02.161 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[2019-08-02 16:50:27.265 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:50:27.282 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:50:27.337 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:50:27.338 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:50:27.338 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:50:27.338 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:50:27.340 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:50:27.340 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:50:27.340 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:50:27.341 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:50:27.341 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:50:27.341 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:50:27.342 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:50:27.342 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:50:27.342 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:50:27.343 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:50:27.343 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:50:27.404 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25139 (auto-detected)
+[2019-08-02 16:50:27.410 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:50:27.412 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb0b69fd2ead3ac43 (took 15 ms)
+[2019-08-02 16:50:27.464 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:50:27.464 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:50:27.464 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:50:27.464 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:50:27.464 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:50:27.464 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:50:27.465 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:50:27.465 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:50:27.465 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:50:27.465 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:50:27.472 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:50:27.472 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:50:27.474 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 16:50:27.474 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 16:50:35.531 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:50:35.537 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:50:35.585 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:50:35.585 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:50:35.585 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:50:35.586 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:50:35.586 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:50:35.586 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:50:35.587 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:50:35.591 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:50:35.592 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:50:35.592 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:50:35.593 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:50:35.594 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:50:35.594 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:50:35.595 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:50:35.595 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:50:35.658 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25140 (auto-detected)
+[2019-08-02 16:50:35.664 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:50:35.666 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdace0960b8b53537 (took 13 ms)
+[2019-08-02 16:50:35.704 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:50:35.704 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:50:35.704 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:50:35.705 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:50:35.705 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:50:35.705 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:50:35.705 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:50:35.706 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:50:35.706 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:50:35.706 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:50:35.714 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:50:35.714 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:50:35.816 DEBUG] [nioEventLoopGroup-0-0] netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[2019-08-02 16:52:19.310 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:52:19.320 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:52:19.369 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:52:19.370 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:52:19.370 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:52:19.370 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:52:19.371 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:52:19.371 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:52:19.371 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:52:19.371 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:52:19.372 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:52:19.372 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:52:19.373 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:52:19.373 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:52:19.374 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:52:19.374 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:52:19.374 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:52:19.435 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25165 (auto-detected)
+[2019-08-02 16:52:19.440 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:52:19.457 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0b5d37dc4c6102fc (took 14 ms)
+[2019-08-02 16:52:19.511 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:52:19.511 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:52:19.512 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:52:19.512 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:52:19.512 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:52:19.512 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:52:19.512 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:52:19.513 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:52:19.513 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:52:19.513 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:52:19.519 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:52:19.520 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:52:19.521 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 16:52:19.521 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 16:52:26.933 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:52:26.942 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:52:27.001 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:52:27.001 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:52:27.002 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:52:27.002 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:52:27.003 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:52:27.003 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:52:27.003 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:52:27.004 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:52:27.004 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:52:27.004 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:52:27.005 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:52:27.005 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:52:27.005 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:52:27.006 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:52:27.006 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:52:27.069 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25166 (auto-detected)
+[2019-08-02 16:52:27.074 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:52:27.077 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x90980dfe3d9a3fda (took 12 ms)
+[2019-08-02 16:52:27.133 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:52:27.133 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:52:27.133 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:52:27.133 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:52:27.134 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:52:27.134 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:52:27.134 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:52:27.134 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:52:27.134 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:52:27.134 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:52:27.143 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:52:27.144 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:52:27.227 DEBUG] [nioEventLoopGroup-0-0] netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[2019-08-02 16:52:47.981 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:52:47.988 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:52:48.042 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:52:48.043 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:52:48.043 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:52:48.043 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:52:48.045 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:52:48.045 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:52:48.045 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:52:48.046 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:52:48.046 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:52:48.047 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:52:48.047 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:52:48.047 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:52:48.048 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:52:48.048 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:52:48.048 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:52:48.106 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25168 (auto-detected)
+[2019-08-02 16:52:48.113 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:52:48.117 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x99bbeb08b117b456 (took 15 ms)
+[2019-08-02 16:52:48.158 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:52:48.158 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:52:48.159 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:52:48.159 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:52:48.159 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:52:48.160 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:52:48.162 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:52:48.162 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:52:48.162 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:52:48.163 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:52:48.169 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:52:48.169 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:52:48.171 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 16:52:48.172 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 16:52:53.184 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:52:53.191 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:52:53.241 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:52:53.241 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:52:53.242 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:52:53.242 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:52:53.243 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:52:53.243 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:52:53.243 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:52:53.243 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:52:53.244 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:52:53.244 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:52:53.245 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:52:53.245 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:52:53.245 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:52:53.245 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:52:53.245 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:52:53.305 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25169 (auto-detected)
+[2019-08-02 16:52:53.316 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:52:53.318 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x5bd40a9a02a002f9 (took 28 ms)
+[2019-08-02 16:52:53.364 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:52:53.365 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:52:53.366 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:52:53.367 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:52:53.373 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:52:53.373 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:52:53.455 DEBUG] [nioEventLoopGroup-0-0] netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[2019-08-02 16:52:53.484 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[2019-08-02 16:52:53.574 DEBUG] [nioEventLoopGroup-1-0] netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[2019-08-02 16:52:53.597 DEBUG] [nioEventLoopGroup-1-0] netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[2019-08-02 16:57:19.786 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:57:19.798 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:57:20.013 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:57:20.013 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:57:20.014 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:57:20.014 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:57:20.015 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:57:20.015 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:57:20.016 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:57:20.016 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:57:20.017 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:57:20.018 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:57:20.018 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:57:20.018 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:57:20.018 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:57:20.019 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:57:20.019 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:57:20.233 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25230 (auto-detected)
+[2019-08-02 16:57:20.243 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:57:20.250 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8eaad20436bb5f56 (took 1 ms)
+[2019-08-02 16:57:20.381 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:57:20.381 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:57:20.381 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:57:20.381 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:57:20.381 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:57:20.382 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:57:20.382 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:57:20.382 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:57:20.382 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:57:20.382 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:57:20.402 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:57:20.403 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:57:20.410 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 16:57:20.411 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 16:58:05.762 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 16:58:05.785 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 16:58:06.015 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 16:58:06.015 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 16:58:06.016 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 16:58:06.016 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+[2019-08-02 16:58:06.017 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 16:58:06.018 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 16:58:06.018 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 16:58:06.018 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 16:58:06.020 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 16:58:06.021 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 16:58:06.022 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 16:58:06.022 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 16:58:06.023 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 16:58:06.024 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 16:58:06.024 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 16:58:06.190 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25232 (auto-detected)
+[2019-08-02 16:58:06.210 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 16:58:06.213 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xcdd78125cc22ed80 (took 1 ms)
+[2019-08-02 16:58:06.340 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 4
+[2019-08-02 16:58:06.340 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 4
+[2019-08-02 16:58:06.341 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 16:58:06.341 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 16:58:06.342 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 16:58:06.342 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 16:58:06.342 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 16:58:06.343 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 16:58:06.349 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 16:58:06.349 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 16:58:06.361 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 16:58:06.361 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 16:58:06.543 DEBUG] [nioEventLoopGroup-0-0] netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[2019-08-02 16:58:06.697 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[2019-08-02 16:58:06.754 DEBUG] [nioEventLoopGroup-1-0] netty.util.ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[2019-08-02 17:03:33.217 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:03:33.227 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:03:33.314 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:03:33.317 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:03:33.319 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:03:33.321 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:03:33.323 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:03:33.323 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:03:33.324 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:03:33.325 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:03:33.325 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:03:33.325 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:03:33.326 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:03:33.327 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:03:33.327 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:03:33.327 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:03:33.328 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:03:33.328 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:03:33.328 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:03:33.356 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:03:33.356 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:03:33.358 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:03:33.448 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25330 (auto-detected)
+[2019-08-02 17:03:33.451 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:03:33.451 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:03:33.457 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:03:33.458 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:03:33.462 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:03:33.463 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd94963c6ff8393a0
+[2019-08-02 17:03:33.480 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:03:33.480 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:03:33.506 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:03:33.506 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:03:33.506 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:03:33.506 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:03:33.506 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:03:33.506 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:03:33.507 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:03:33.507 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:03:33.507 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:03:33.507 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:03:33.517 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:03:33.517 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:03:33.517 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:03:46.751 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:03:46.761 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:03:46.793 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:03:46.794 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:03:46.801 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:03:46.801 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:03:46.802 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:03:46.803 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:03:46.804 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:03:46.805 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:03:46.805 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:03:46.805 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:03:46.806 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:03:46.807 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:03:46.808 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:03:46.808 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:03:46.808 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:03:46.809 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:03:46.818 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:03:46.839 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:03:46.839 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:03:46.842 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:03:46.911 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25331 (auto-detected)
+[2019-08-02 17:03:46.914 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:03:46.914 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:03:46.918 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:03:46.919 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:03:46.922 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:03:46.923 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xf4c9fd5ef1bdf302
+[2019-08-02 17:03:46.937 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:03:46.937 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:03:46.962 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:03:46.962 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:03:46.962 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:03:46.962 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:03:46.963 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:03:46.963 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:03:46.963 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:03:46.963 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:03:46.963 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:03:46.963 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:03:46.977 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:03:46.977 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:03:46.978 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:03:47.059 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:03:47.063 DEBUG] [nioEventLoopGroup-2-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73238183
+[2019-08-02 17:03:47.165 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:03:47.166 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:03:47.166 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:03:47.171 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:03:47.191 DEBUG] [nioEventLoopGroup-3-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:03:47.194 DEBUG] [nioEventLoopGroup-3-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4bebd69d
+[2019-08-02 17:03:47.207 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:03:47.208 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:03:47.208 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:03:47.208 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:05:37.420 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:05:37.446 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:05:37.514 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:05:37.516 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:05:37.517 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:05:37.519 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:05:37.520 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:05:37.521 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:05:37.522 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:05:37.524 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:05:37.524 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:05:37.525 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:05:37.525 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:05:37.526 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:05:37.527 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:05:37.527 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:05:37.528 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:05:37.530 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:05:37.531 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:05:37.570 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:05:37.570 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:05:37.573 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:05:37.664 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25356 (auto-detected)
+[2019-08-02 17:05:37.667 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:05:37.667 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:05:37.673 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:05:37.674 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:05:37.678 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:05:37.682 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe68f29c5e7c232ac
+[2019-08-02 17:05:37.702 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:05:37.702 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:05:37.746 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:05:37.746 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:05:37.746 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:05:37.747 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:05:37.765 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:05:37.765 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:05:37.765 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:05:46.657 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:05:46.667 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:05:46.725 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:05:46.730 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:05:46.731 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:05:46.732 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:05:46.735 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:05:46.735 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:05:46.736 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:05:46.738 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:05:46.738 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:05:46.739 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:05:46.739 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:05:46.741 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:05:46.741 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:05:46.741 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:05:46.741 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:05:46.742 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:05:46.743 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:05:46.817 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:05:46.817 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:05:46.825 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:05:52.272 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25357 (auto-detected)
+[2019-08-02 17:05:52.278 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:05:52.279 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:05:52.288 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:05:52.289 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:05:52.294 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:05:52.296 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x78aa94a6295dc2e5
+[2019-08-02 17:05:52.358 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:05:52.358 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:05:52.424 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:05:52.424 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:05:52.424 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:05:52.425 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:05:52.439 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:05:52.439 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:05:52.439 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:10:23.396 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:10:23.411 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:10:23.447 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:10:23.449 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:10:23.450 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:10:23.451 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:10:23.452 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:10:23.452 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:10:23.454 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:10:23.454 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:10:23.455 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:10:23.455 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:10:23.455 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:10:23.456 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:10:23.457 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:10:23.458 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:10:23.459 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:10:23.459 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:10:23.459 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:10:23.486 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:10:23.486 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:10:23.489 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:10:23.582 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25482 (auto-detected)
+[2019-08-02 17:10:23.585 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:10:23.585 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:10:23.593 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:10:23.594 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:10:23.597 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:10:23.599 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x1cb392254af347bc
+[2019-08-02 17:10:23.614 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:10:23.614 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:10:23.655 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:10:23.656 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:10:23.656 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:10:23.656 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:10:23.656 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:10:23.656 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:10:23.657 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:10:23.657 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:10:23.657 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:10:23.657 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:10:23.685 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:10:23.685 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:10:23.686 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:10:29.320 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:10:29.326 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:10:29.371 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:10:29.373 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:10:29.373 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:10:29.374 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:10:29.375 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:10:29.375 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:10:29.376 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:10:29.377 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:10:29.377 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:10:29.377 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:10:29.377 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:10:29.378 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:10:29.378 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:10:29.378 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:10:29.379 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:10:29.379 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:10:29.379 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:10:29.405 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:10:29.405 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:10:29.408 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:10:29.489 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25483 (auto-detected)
+[2019-08-02 17:10:29.493 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:10:29.493 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:10:29.499 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:10:29.499 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:10:29.503 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:10:29.505 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xf5a5ced23fb8e0f9
+[2019-08-02 17:10:29.522 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:10:29.522 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:10:29.553 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:10:29.553 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:10:29.553 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:10:29.554 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:10:29.554 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:10:29.554 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:10:29.555 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:10:29.555 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:10:29.555 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:10:29.555 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:10:29.575 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:10:29.575 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:10:29.576 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:10:29.674 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:10:29.677 DEBUG] [nioEventLoopGroup-2-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4435dd0
+[2019-08-02 17:10:29.733 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:10:29.733 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:10:29.734 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:10:29.734 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:10:29.810 DEBUG] [nioEventLoopGroup-3-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:10:29.813 DEBUG] [nioEventLoopGroup-3-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b46ea86
+[2019-08-02 17:10:29.826 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:10:29.826 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:10:29.826 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:10:29.826 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:10:40.806 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+[2019-08-02 17:13:02.385 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:13:02.397 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:13:02.440 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:13:02.441 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:13:02.442 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:13:02.443 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:13:02.445 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:13:02.445 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:13:02.447 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:13:02.448 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:13:02.448 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:13:02.448 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:13:02.448 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:13:02.449 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:13:02.450 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:13:02.450 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:13:02.451 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:13:02.451 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:13:02.451 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:13:02.473 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:13:02.473 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:13:02.475 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:13:02.535 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25510 (auto-detected)
+[2019-08-02 17:13:02.538 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:13:02.538 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:13:02.542 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:13:02.543 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:13:02.546 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:13:02.549 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x4a9dcf423170fdce
+[2019-08-02 17:13:02.566 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:13:02.566 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:13:02.604 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:13:02.604 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:13:02.604 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:13:02.604 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:13:02.605 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:13:02.605 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:13:02.605 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:13:02.605 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:13:02.605 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:13:02.605 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:13:02.619 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:13:02.619 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:13:02.619 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:16:01.363 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:16:01.370 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:16:01.391 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:16:01.392 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:16:01.392 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:16:01.393 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:16:01.394 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:16:01.394 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:16:01.396 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:16:01.397 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:16:01.397 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:16:01.397 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:16:01.398 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:16:01.399 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:16:01.399 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:16:01.399 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:16:01.399 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:16:01.400 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:16:01.400 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:16:01.420 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:16:01.420 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:16:01.422 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:16:01.494 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25547 (auto-detected)
+[2019-08-02 17:16:01.497 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:16:01.497 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:16:01.502 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:16:01.503 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:16:01.506 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:16:01.508 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xfd10053574a516fe
+[2019-08-02 17:16:01.529 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:16:01.529 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:16:01.558 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:16:01.558 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:16:01.558 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:16:01.558 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:16:01.559 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:16:01.559 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:16:01.559 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:16:01.561 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:16:01.561 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:16:01.561 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:16:01.571 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:16:01.571 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:16:01.571 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:16:22.013 DEBUG] [main] internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+[2019-08-02 17:16:22.019 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:16:22.045 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:16:22.046 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:16:22.046 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:16:22.047 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:16:22.048 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:16:22.048 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:16:22.049 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:16:22.049 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:16:22.049 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:16:22.050 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:16:22.050 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:16:22.051 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:16:22.051 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:16:22.051 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:16:22.052 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:16:22.052 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:16:22.052 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:16:22.073 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:16:22.073 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:16:22.076 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:16:22.154 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25554 (auto-detected)
+[2019-08-02 17:16:22.156 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:16:22.156 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:16:22.161 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:16:22.161 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:16:22.165 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:16:22.166 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd2c2bab2497e04cc
+[2019-08-02 17:16:22.181 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:16:22.181 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:16:22.206 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:16:22.206 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:16:22.206 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:16:22.206 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:16:22.207 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:16:22.207 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:16:22.207 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:16:22.207 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:16:22.207 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:16:22.207 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:16:22.234 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:16:22.235 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:16:22.235 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:16:22.321 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:16:22.326 DEBUG] [nioEventLoopGroup-2-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73238183
+[2019-08-02 17:16:22.413 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:16:22.414 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:16:22.415 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:16:22.419 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:16:22.457 DEBUG] [nioEventLoopGroup-3-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:16:22.459 DEBUG] [nioEventLoopGroup-3-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@70d02b38
+[2019-08-02 17:16:22.472 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:16:22.472 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:16:22.472 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:16:22.472 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:16:59.400 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+[2019-08-02 17:24:14.203 INFO ] [main] netty.server.App - 准备载入spring...
+[2019-08-02 17:24:14.329 INFO ] [main] context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@606d8acf: startup date [Fri Aug 02 17:24:14 CST 2019]; root of context hierarchy
+[2019-08-02 17:24:14.393 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-content.xml]
+[2019-08-02 17:24:14.608 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2019-08-02 17:24:14.649 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-bean.xml]
+[2019-08-02 17:24:14.856 WARN ] [main] spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.netty.server.base.mybatis.dao]' package. Please check your configuration.
+[2019-08-02 17:24:14.869 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/server-config-dev.properties]
+[2019-08-02 17:24:14.870 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/db-config-dev.properties]
+[2019-08-02 17:24:14.870 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/xml-cfg-config-dev.properties]
+[2019-08-02 17:24:14.914 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 17:24:14.928 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 17:24:14.928 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 17:24:15.054 INFO ] [main] scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'threadPool'
+[2019-08-02 17:24:15.070 DEBUG] [main] ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-08-02 17:24:15.353 INFO ] [main] netty.server.App - 载入spring 完毕...
+[2019-08-02 17:24:15.362 DEBUG] [main] internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2019-08-02 17:24:15.366 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:24:15.393 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:24:15.395 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:24:15.396 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:24:15.397 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:24:15.398 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:24:15.399 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:24:15.400 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:24:15.408 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:24:15.408 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:24:15.408 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:24:15.408 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:24:15.409 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:24:15.409 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:24:15.410 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:24:15.410 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:24:15.410 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:24:15.410 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:24:15.429 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:24:15.429 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:24:15.431 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:24:15.502 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25689 (auto-detected)
+[2019-08-02 17:24:15.510 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:24:15.510 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:24:15.517 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:24:15.518 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:24:15.524 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:24:15.526 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa0e927f438efbb48
+[2019-08-02 17:24:15.538 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:24:15.538 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:24:15.567 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:24:15.567 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:24:15.567 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:24:15.567 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:24:15.567 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:24:15.567 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:24:15.568 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:24:15.568 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:24:15.568 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:24:15.568 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:24:15.578 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:24:15.578 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:24:15.578 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:24:15.590 INFO ] [main] server.net.SocketServer - Socket服务器已启动完成
+[2019-08-02 17:29:45.747 INFO ] [main] netty.server.App - 准备载入spring...
+[2019-08-02 17:29:45.884 INFO ] [main] context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@606d8acf: startup date [Fri Aug 02 17:29:45 CST 2019]; root of context hierarchy
+[2019-08-02 17:29:45.940 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-content.xml]
+[2019-08-02 17:29:46.170 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2019-08-02 17:29:46.206 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-bean.xml]
+[2019-08-02 17:29:46.373 WARN ] [main] spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.netty.server.base.mybatis.dao]' package. Please check your configuration.
+[2019-08-02 17:29:46.386 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/server-config-dev.properties]
+[2019-08-02 17:29:46.386 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/db-config-dev.properties]
+[2019-08-02 17:29:46.387 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/xml-cfg-config-dev.properties]
+[2019-08-02 17:29:46.437 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 17:29:46.445 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 17:29:46.445 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 17:29:46.572 INFO ] [main] scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'threadPool'
+[2019-08-02 17:29:46.591 DEBUG] [main] ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-08-02 17:29:46.924 INFO ] [main] netty.server.App - 载入spring 完毕...
+[2019-08-02 17:29:46.938 DEBUG] [main] internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2019-08-02 17:29:46.945 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:29:46.976 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:29:46.977 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:29:46.978 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:29:46.988 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:29:46.989 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:29:46.990 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:29:46.994 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:29:46.996 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:29:46.996 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:29:46.997 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:29:47.003 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:29:47.004 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:29:47.004 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:29:47.005 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:29:47.005 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:29:47.006 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:29:47.006 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:29:47.032 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:29:47.032 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:29:47.035 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:29:47.107 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25760 (auto-detected)
+[2019-08-02 17:29:47.112 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:29:47.112 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:29:47.120 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:29:47.121 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:29:47.124 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:29:47.127 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xfd2c41a9b07af7a3
+[2019-08-02 17:29:47.145 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:29:47.145 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:29:47.180 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:29:47.181 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:29:47.181 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:29:47.181 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:29:47.181 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:29:47.181 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:29:47.181 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:29:47.182 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:29:47.182 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:29:47.182 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:29:47.194 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:29:47.194 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:29:47.195 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:29:47.208 INFO ] [main] server.net.SocketServer - Socket服务器已启动完成
+[2019-08-02 17:29:54.968 DEBUG] [main] internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2019-08-02 17:29:54.975 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 17:29:55.002 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 17:29:55.002 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 17:29:55.003 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 17:29:55.003 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 17:29:55.004 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 17:29:55.004 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 17:29:55.005 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 17:29:55.006 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 17:29:55.006 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 17:29:55.006 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 17:29:55.007 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 17:29:55.008 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 17:29:55.008 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 17:29:55.008 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 17:29:55.008 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 17:29:55.009 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 17:29:55.009 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 17:29:55.026 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 17:29:55.026 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 17:29:55.029 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 17:29:55.046 INFO ] [main] server.net.SocketClientTest - 开始连接Socket服务器...
+[2019-08-02 17:29:55.090 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 25761 (auto-detected)
+[2019-08-02 17:29:55.092 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 17:29:55.092 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 17:29:55.097 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 17:29:55.100 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 17:29:55.105 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 17:29:55.107 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8e84d24b68818239
+[2019-08-02 17:29:55.123 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 17:29:55.124 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 17:29:55.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 17:29:55.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 17:29:55.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 17:29:55.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 17:29:55.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 17:29:55.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 17:29:55.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 17:29:55.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 17:29:55.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 17:29:55.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 17:29:55.166 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 17:29:55.166 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 17:29:55.166 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 17:29:55.266 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:29:55.270 DEBUG] [nioEventLoopGroup-2-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@707b9a7f
+[2019-08-02 17:29:55.291 INFO ] [nioEventLoopGroup-2-1] server.net.SocketClientHandlerTest - 客户端连接建立
+[2019-08-02 17:29:55.301 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:29:55.301 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:29:55.301 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:29:55.301 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:29:55.306 INFO ] [main] server.net.SocketClientTest - 向Socket服务器发送数据:小王，我是客户端
+
+[2019-08-02 17:29:55.391 DEBUG] [nioEventLoopGroup-3-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 17:29:55.393 DEBUG] [nioEventLoopGroup-3-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6adfcac1
+[2019-08-02 17:29:55.400 INFO ] [nioEventLoopGroup-3-1] server.net.SocketServer - 建立连接
+[2019-08-02 17:29:55.404 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 17:29:55.405 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 17:29:55.405 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 17:29:55.405 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 17:29:55.420 INFO ] [nioEventLoopGroup-3-1] server.net.SocketServer - 数据内容：data=小王，我是客户端
+[2019-08-02 17:29:55.431 INFO ] [nioEventLoopGroup-2-1] server.net.SocketClientHandlerTest - 数据内容：data=小李，我是服务器，我收到你的信息了。
+[2019-08-02 17:30:10.499 INFO ] [nioEventLoopGroup-3-1] server.net.SocketServer - 连接断开
+[2019-08-02 18:54:33.636 INFO ] [main] netty.server.App - 准备载入spring...
+[2019-08-02 18:54:33.780 INFO ] [main] context.support.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@59f95c5d: startup date [Fri Aug 02 18:54:33 CST 2019]; root of context hierarchy
+[2019-08-02 18:54:33.845 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-content.xml]
+[2019-08-02 18:54:34.160 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-dao.xml]
+[2019-08-02 18:54:34.239 INFO ] [main] factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-bean.xml]
+[2019-08-02 18:54:34.440 WARN ] [main] spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.netty.server.base.mybatis.dao]' package. Please check your configuration.
+[2019-08-02 18:54:34.452 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/server-config-dev.properties]
+[2019-08-02 18:54:34.453 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/db-config-dev.properties]
+[2019-08-02 18:54:34.454 INFO ] [main] factory.config.PropertiesFactoryBean - Loading properties file from class path resource [properties/xml-cfg-config-dev.properties]
+[2019-08-02 18:54:34.516 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 18:54:34.526 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 18:54:34.526 DEBUG] [main] framework.autoproxy.BeanFactoryAdvisorRetrievalHelper - Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2019-08-02 18:54:34.630 DEBUG] [main] internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2019-08-02 18:54:34.671 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 18:54:34.672 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 18:54:34.673 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 18:54:34.674 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 18:54:34.677 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 18:54:34.677 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 18:54:34.681 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 18:54:34.682 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 18:54:34.683 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 18:54:34.683 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 18:54:34.684 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 18:54:34.685 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 18:54:34.685 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 18:54:34.688 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 18:54:34.689 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 18:54:34.689 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 18:54:34.689 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 18:54:34.712 INFO ] [main] scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'threadPool'
+[2019-08-02 18:54:34.731 DEBUG] [main] ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-08-02 18:54:34.990 INFO ] [main] netty.server.App - 载入spring 完毕...
+[2019-08-02 18:54:34.991 INFO ] [main] config.configmannager.ServerConfig - **************Xml Cfg INFO******************
+[2019-08-02 18:54:34.991 INFO ] [main] config.configmannager.ServerConfig - cfgPackageName     : com.lizhaoblog.server.biz.entity.cfg.
+[2019-08-02 18:54:34.991 INFO ] [main] config.configmannager.ServerConfig - cfgPrefix          : ConfigDataArrCfg
+[2019-08-02 18:54:34.991 INFO ] [main] config.configmannager.ServerConfig - catalogDir         : /cfg/
+[2019-08-02 18:54:34.994 INFO ] [main] config.configmannager.ServerConfig - catalogFile        : dataConfig.xml
+[2019-08-02 18:54:34.994 INFO ] [main] config.configmannager.ServerConfig - catalogMainNode    : /config/file
+[2019-08-02 18:54:34.994 INFO ] [main] config.configmannager.ServerConfig - catalogAttribute   : name
+[2019-08-02 18:54:34.994 INFO ] [main] config.configmannager.ServerConfig - xmlFileDir         : /cfg/data-static-config/
+[2019-08-02 18:54:34.995 INFO ] [main] config.configmannager.ServerConfig - **************Xml Cfg INFO******************
+[2019-08-02 18:54:34.995 INFO ] [main] net.impl.BasicServerImpl - 启动通讯服务  开始
+[2019-08-02 18:54:35.008 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 18:54:35.032 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 18:54:35.033 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 18:54:35.034 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 18:54:35.051 INFO ] [main] net.factory.ServerChannelFactory - 创建Server...
+[2019-08-02 18:54:35.083 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 27138 (auto-detected)
+[2019-08-02 18:54:35.086 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 18:54:35.086 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 18:54:35.095 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 18:54:35.096 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 18:54:35.102 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 18:54:35.104 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x864a3d0ea9a56633
+[2019-08-02 18:54:35.118 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 18:54:35.119 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 18:54:35.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 18:54:35.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 18:54:35.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 18:54:35.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 18:54:35.151 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 18:54:35.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 18:54:35.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 18:54:35.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 18:54:35.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 18:54:35.152 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 18:54:35.163 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 18:54:35.165 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 18:54:35.165 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 18:54:35.183 INFO ] [main] net.impl.BasicServerImpl - 启动通讯服务  结束
+[2019-08-02 18:54:35.183 INFO ] [main] config.configmannager.ServerConfig - **************Server INFO******************
+[2019-08-02 18:54:35.183 INFO ] [main] config.configmannager.ServerConfig - protocolType  : TCP
+[2019-08-02 18:54:35.183 INFO ] [main] config.configmannager.ServerConfig - ipHost        : 127.0.0.1
+[2019-08-02 18:54:35.184 INFO ] [main] config.configmannager.ServerConfig - port          : 8088
+[2019-08-02 18:54:35.184 INFO ] [main] config.configmannager.ServerConfig - channelType   : NIO
+[2019-08-02 18:54:35.184 INFO ] [main] config.configmannager.ServerConfig - messageType   : BYTE
+[2019-08-02 18:54:35.184 INFO ] [main] config.configmannager.ServerConfig - sslOpen       : false
+[2019-08-02 18:54:35.184 INFO ] [main] config.configmannager.ServerConfig - **************Server INFO******************
+[2019-08-02 18:54:53.391 DEBUG] [main] internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2019-08-02 18:54:53.400 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 18:54:53.433 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 18:54:53.434 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 18:54:53.435 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 18:54:53.436 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 18:54:53.437 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 18:54:53.437 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 18:54:53.438 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 18:54:53.439 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 18:54:53.440 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 18:54:53.440 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 18:54:53.440 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 18:54:53.441 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 18:54:53.442 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 18:54:53.442 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 18:54:53.443 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 18:54:53.443 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 18:54:53.443 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 18:54:53.465 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 18:54:53.465 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 18:54:53.469 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 18:54:53.484 INFO ] [main] net.demo.SocketClientTest - 开始连接Socket服务器...
+[2019-08-02 18:54:53.531 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 27139 (auto-detected)
+[2019-08-02 18:54:53.535 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 18:54:53.535 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 18:54:53.540 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 18:54:53.540 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 18:54:53.543 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 18:54:53.545 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x888d637d7359a78a
+[2019-08-02 18:54:53.559 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 18:54:53.559 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 18:54:53.589 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 18:54:53.590 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 18:54:53.591 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 18:54:53.591 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 18:54:53.599 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 18:54:53.601 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 18:54:53.601 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 18:54:53.693 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 18:54:53.696 DEBUG] [nioEventLoopGroup-2-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@dfc245a
+[2019-08-02 18:54:53.720 INFO ] [nioEventLoopGroup-2-1] net.demo.SocketClientHandlerTest - 客户端连接建立
+[2019-08-02 18:54:53.726 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 18:54:53.727 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 18:54:53.727 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 18:54:53.727 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 18:54:53.730 INFO ] [main] net.demo.SocketClientTest - 向Socket服务器发送数据:小王，我是客户端
+
+[2019-08-02 18:54:53.786 DEBUG] [nioEventLoopGroup-3-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 18:54:53.787 DEBUG] [nioEventLoopGroup-3-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6cf3ed6c
+[2019-08-02 18:54:53.792 INFO ] [nioEventLoopGroup-3-1] net.tcp.TcpMessageStringHandler - 建立连接
+[2019-08-02 18:54:53.794 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 18:54:53.795 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 18:54:53.795 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 18:54:53.795 DEBUG] [nioEventLoopGroup-3-1] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 18:54:53.808 INFO ] [nioEventLoopGroup-3-1] net.tcp.TcpMessageStringHandler - 数据内容：data=小王，我是客户端
+[2019-08-02 18:55:05.519 DEBUG] [main] internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[2019-08-02 18:55:05.530 DEBUG] [main] netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[2019-08-02 18:55:05.555 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+[2019-08-02 18:55:05.556 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[2019-08-02 18:55:05.557 DEBUG] [main] util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[2019-08-02 18:55:05.558 DEBUG] [main] util.internal.PlatformDependent0 - direct buffer constructor: available
+[2019-08-02 18:55:05.559 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[2019-08-02 18:55:05.559 DEBUG] [main] util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[2019-08-02 18:55:05.560 DEBUG] [main] util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+[2019-08-02 18:55:05.561 DEBUG] [main] util.internal.PlatformDependent - Java version: 8
+[2019-08-02 18:55:05.561 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+[2019-08-02 18:55:05.561 DEBUG] [main] util.internal.PlatformDependent - sun.misc.Unsafe: available
+[2019-08-02 18:55:05.561 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+[2019-08-02 18:55:05.562 DEBUG] [main] util.internal.PlatformDependent - Javassist: unavailable
+[2019-08-02 18:55:05.563 DEBUG] [main] util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[2019-08-02 18:55:05.563 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/ch/d4bp90915236f50vg_58g9ww0000gn/T (java.io.tmpdir)
+[2019-08-02 18:55:05.564 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2019-08-02 18:55:05.564 DEBUG] [main] util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+[2019-08-02 18:55:05.564 DEBUG] [main] util.internal.PlatformDependent - io.netty.maxDirectMemory: 1908932608 bytes
+[2019-08-02 18:55:05.579 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[2019-08-02 18:55:05.579 DEBUG] [main] channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[2019-08-02 18:55:05.582 DEBUG] [main] util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[2019-08-02 18:55:05.602 INFO ] [main] net.demo.SocketClientTest - 开始连接Socket服务器...
+[2019-08-02 18:55:05.646 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.processId: 27140 (auto-detected)
+[2019-08-02 18:55:05.650 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+[2019-08-02 18:55:05.650 DEBUG] [main] netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+[2019-08-02 18:55:05.655 DEBUG] [main] netty.util.NetUtil - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+[2019-08-02 18:55:05.657 DEBUG] [main] netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128 (non-existent)
+[2019-08-02 18:55:05.661 DEBUG] [main] netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+[2019-08-02 18:55:05.663 DEBUG] [main] util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb7e8127aeb0873cc
+[2019-08-02 18:55:05.676 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[2019-08-02 18:55:05.676 DEBUG] [main] netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.maxRecords: 4
+[2019-08-02 18:55:05.709 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[2019-08-02 18:55:05.710 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[2019-08-02 18:55:05.710 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[2019-08-02 18:55:05.710 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[2019-08-02 18:55:05.710 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[2019-08-02 18:55:05.710 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[2019-08-02 18:55:05.711 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[2019-08-02 18:55:05.711 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[2019-08-02 18:55:05.711 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2019-08-02 18:55:05.711 DEBUG] [main] netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[2019-08-02 18:55:05.720 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+[2019-08-02 18:55:05.720 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[2019-08-02 18:55:05.720 DEBUG] [main] netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2019-08-02 18:55:05.796 DEBUG] [nioEventLoopGroup-2-1] netty.buffer.AbstractByteBuf - -Dio.netty.buffer.bytebuf.checkAccessible: true
+[2019-08-02 18:55:05.798 DEBUG] [nioEventLoopGroup-2-1] netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50e72481
+[2019-08-02 18:55:05.816 INFO ] [nioEventLoopGroup-3-2] net.tcp.TcpMessageStringHandler - 建立连接
+[2019-08-02 18:55:05.820 INFO ] [nioEventLoopGroup-2-1] net.demo.SocketClientHandlerTest - 客户端连接建立
+[2019-08-02 18:55:05.823 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 32768
+[2019-08-02 18:55:05.823 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[2019-08-02 18:55:05.824 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+[2019-08-02 18:55:05.824 DEBUG] [main] netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+[2019-08-02 18:55:05.829 INFO ] [main] net.demo.SocketClientTest - 向Socket服务器发送数据:小王，我是客户端
+
+[2019-08-02 18:55:05.846 INFO ] [nioEventLoopGroup-3-2] net.tcp.TcpMessageStringHandler - 数据内容：data=小王，我是客户端
+[2019-08-02 18:55:19.904 INFO ] [nioEventLoopGroup-3-1] net.tcp.TcpMessageStringHandler - 连接断开
+[2019-08-02 18:55:26.907 INFO ] [nioEventLoopGroup-3-2] net.tcp.TcpMessageStringHandler - 连接断开
