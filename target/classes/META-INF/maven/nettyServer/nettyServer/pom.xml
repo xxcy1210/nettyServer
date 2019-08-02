@@ -52,7 +52,7 @@
 		<common.dbcp.version>1.4</common.dbcp.version>
 		<common.codec.version>1.4</common.codec.version>
 		<common.beanutils.version>1.8.3</common.beanutils.version>
-		<common.fileupload.version>1.3</common.fileupload.version>
+		<common.fileupload.version>1.3.3</common.fileupload.version>
 		<common.cli.version>1.0</common.cli.version>
 		<common.discovery.version>0.5</common.discovery.version>
 		<common.net.version>2.2</common.net.version>
@@ -288,7 +288,7 @@
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.3</version>
+      <version>1.4.6</version>
     </dependency>
 
     <!-- jaxen -->
