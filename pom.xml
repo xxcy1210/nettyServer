@@ -51,7 +51,7 @@
 		<common.io.version>2.2</common.io.version>
 		<common.dbcp.version>1.4</common.dbcp.version>
 		<common.codec.version>1.4</common.codec.version>
-		<common.beanutils.version>1.8.3</common.beanutils.version>
+		<common.beanutils.version>1.9.2</common.beanutils.version>
 		<common.fileupload.version>1.3.3</common.fileupload.version>
 		<common.cli.version>1.0</common.cli.version>
 		<common.discovery.version>0.5</common.discovery.version>
@@ -305,7 +305,7 @@
     <dependency>
       <groupId>commons-beanutils</groupId>
       <artifactId>commons-beanutils</artifactId>
-      <version>1.8.3</version>
+      <version>1.9.2</version>
     </dependency>
     <!--上面已经添加了-->
     <!--<dependency>-->
