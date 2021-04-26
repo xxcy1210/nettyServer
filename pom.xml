@@ -48,7 +48,7 @@
 		<!-- common -->
 		<common.logging.version>1.0.4</common.logging.version>
 		<common.lang.version>2.5</common.lang.version>
-		<common.io.version>2.2</common.io.version>
+		<common.io.version>2.7</common.io.version>
 		<common.dbcp.version>1.4</common.dbcp.version>
 		<common.codec.version>1.4</common.codec.version>
 		<common.beanutils.version>1.8.3</common.beanutils.version>
