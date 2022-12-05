@@ -55,7 +55,7 @@
 		<common.fileupload.version>1.3.3</common.fileupload.version>
 		<common.cli.version>1.0</common.cli.version>
 		<common.discovery.version>0.5</common.discovery.version>
-		<common.net.version>2.2</common.net.version>
+		<common.net.version>3.9.0</common.net.version>
 		<common.pool.version>1.6</common.pool.version>
 		<common.email.version>1.4</common.email.version>
 		<httpclient.version>4.4.1</httpclient.version>
